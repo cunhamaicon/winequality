@@ -4,7 +4,7 @@ Análise da qualidade dos vinhos
 
 ## Introdução
 
-Nesse trabalho apresento um modelo de regressão utilizando XGBoost para determinar a qualidade dos vinhos baseado em suas  características. O modelo teve um erro quadrático médio de 0.6 e foi 29% melhor que o baseline. Para chegar nesse resultado foi feita uma preparação dos dados criteriosa eliminando incosnsistências e outliers, uma análise exploratória para descobrir variáveis importantes e testes com vários modelos e parâmetros. 
+Nesse trabalho apresento um modelo de regressão utilizando XGBoost para determinar a qualidade dos vinhos baseado em suas  características. O modelo teve um erro quadrático médio de 0.58 e foi 31% melhor que o baseline. Para chegar nesse resultado foi feita uma preparação dos dados criteriosa eliminando incosnsistências e outliers, uma análise exploratória para descobrir variáveis importantes e testes com vários modelos e parâmetros. 
 
 Linguagem: Python
 
