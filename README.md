@@ -56,6 +56,6 @@ b. Como o problema foi abordado através de regressão a função de custo utili
 
 c. O modelo final escolhido apresentou o menor erro. Além disso possibilita facilmente observar as variáveis mais importantes e obter insights sobre a qualidade do vinho através da árvore de decisão.
 
-d. Para a validação do modelo foi utilizada a validação cruzada com Kfold = 20. A validação cruzada evita que um conjunto mais favorecido ou menos favorecido escolhido aleatoriamente tenha impacto direto na avaliação do modelo. ALém disso lida com o problema de overfiting. A atenção ao baseline é importante para garantir que o modelo possui inteligência.
+d. Para a validação do modelo foi utilizada a validação cruzada com Kfold = 20. A validação cruzada evita que um conjunto mais favorecido ou menos favorecido escolhido aleatoriamente tenha impacto direto na avaliação do modelo. Além disso lida com o problema de overfiting. A atenção ao baseline é importante para garantir que o modelo possui inteligência.
 
 e. Uma das evidências que o modelo é bom é o fato das variáveis mais importantes no modelo serem condizentes com a análise exploratória realizada anteriormente. Afirmo que ele é suficientemente bom pois foram realizados testes com diversos outros modelos de Machine Learning e o XGBoost com os parâmetros escolhidos através de grid search teve a melhor performance. Além disso o XGBoost é muito utilizado na comunidade de Machine Learning e tem histórico excelente de resultados.
