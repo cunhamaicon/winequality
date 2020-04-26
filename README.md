@@ -10,10 +10,6 @@ Linguagem: Python
 
 Autor: Maicon Henrique Cunha
 
-## Objetivo:
-
-Criar um modelo para estimar a qualidade do vinho
-
 ## Arquivos:
 
 1. winequality.csv - Base utilizada
