@@ -28,10 +28,13 @@ a. Estratégia de modelagem:
   1. Definição da abordagem do problema: regressão ao invés de classificação   
   
   Embora as avaliações não sejam valores contínuos nesse trabalho será utilizada a abordagem da regressão. O porque dessa       abordagem fica claro com o exemplo:
+  
   Caso1 - suponha que em 10 amostras para testes 2 estejam erradas: No erro 1 a avaliação original era 5 e o modelo avaliou
   como 6   No erro 2 a nota original era 7 e o modelo avaliou como 8
+  
   Caso2 - suponha que em 10 amostras para testes 2 estejam erradas: No erro 1 a avaliação original era 5 e o modelo avaliou  
   como 8   No erro 2 a nota original era 7 e o modelo avaliou como 4
+  
   Claramente os dois erros são diferentes! Porém se estivéssemos utilizando classificação teríamos uma mesma acurácia de 80%.
   Com um modelo de regressão e utilizando raiz do erro quadrático médio por exemplo essas diferenças são levadas em 
   consideração, sendo esse o motivo de utilizar regressão e como função de custo a raiz do erro quadrático médio
