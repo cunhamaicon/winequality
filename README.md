@@ -18,6 +18,7 @@ Autor: Maicon Henrique Cunha
 4. resultado.csv - Amostra de 20% da base com os dados originais e os dados previstos pelo modelo.
 5. model.bin - Modelo salvo para utilização futura
 6. apply_model.ipynb - Exemplo de aplicação do modelo em uma linha de forma manual
+7. arvore.png - imagem com a inicio da arvore obtida no modelo
 
 ## Respostas:
 
