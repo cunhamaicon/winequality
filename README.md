@@ -32,7 +32,7 @@ a. A estratégia de modelagem seguiu o seguinte roteiro:
   5. Remoção de outliers
   6. Análise exploratória dos dados. Descoberta de variáveis importantes para o problema
   7. Preparação dos dados para utilização dos modelos
-  8. Aplicação dos modelos de ML com validação cruzada
+  8. Aplicação de diversos modelos de ML com validação cruzada
   9. Escolha de um algoritmo de ML e implementação de grid search para otimização dos parâmetros
   10. Validação do modelo de ML escolhido com atenção ao baseline
   11. Geração de arquivo(resultado.csv) com o resultado da aplicação do modelo em uma base de teste para comparação
