@@ -2,6 +2,10 @@
 
 Análise da qualidade dos vinhos
 
+## Introdução
+
+Nesse trabalho apresento um modelo de regressão utilizando XGBoost para determinar a qualidade dos vinhos baseado em suas  características. O modelo teve um erro quadrático médio de 0.61 e foi 29% melhor que o baseline.
+
 Autor: Maicon Henrique Cunha
 
 ## Objetivo:
@@ -29,16 +33,16 @@ a. A estratégia de modelagem seguiu o seguinte roteiro:
   6. Análise exploratória dos dados. Descoberta de variáveis importantes para o problema
   7. Preparação dos dados para utilização dos modelos
   8. Aplicação dos modelos de ML com validação cruzada
-  9. Escolhas de um algoritmo de ML e implementação de grid search para otimização dos parâmetros
+  9. Escolha de um algoritmo de ML e implementação de grid search para otimização dos parâmetros
   10. Validação do modelo de ML escolhido com atenção ao baseline
-  11. Geração de arquivo(resultado.csv) com resultado da aplicação do modelo em uma base de teste para comparação
+  11. Geração de arquivo(resultado.csv) com o resultado da aplicação do modelo em uma base de teste para comparação
   12. Modelo(model.bin) salvo para análises futuras
   13. Criação de arquivo (apply_model.ipynb) de teste pontual para o modelo
 
 b. Como o problema foi abordado através de regressão a função de custo utilizada foi a raiz do erro quadrático médio. Essa função é de fácil interpretabilidade e se mostrou útil na solução do problema.
 
-c. O modelo final escolhido apresentou o menor erro quadrático médio. ALém disso possibilita facilmente observar as variáveis mais importantes para o modelo e obter insights sobre a qualidade do vinho através do gráfico com a árvore de decisão.
+c. O modelo final escolhido apresentou o menor erro. ALém disso, possibilita facilmente observar as variáveis mais importantes e obter insights sobre a qualidade do vinho através da árvore de decisão.
 
-d. Para a validação do modelo foi utilizada a validação cruzada, além da atenção a diferença do baseline. A validação cruzada evita que um conjunto mais favorecido ou menos favorecido escolhido aleatoriamente tenha impacto direto na avaliação do modelo. A atenção ao baseline é importante para garantir que o modelo possui inteligência.
+d. Para a validação do modelo foi utilizada a validação cruzada. A validação cruzada evita que um conjunto mais favorecido ou menos favorecido escolhido aleatoriamente tenha impacto direto na avaliação do modelo. A atenção ao baseline é importante para garantir que o modelo possui inteligência.
 
 e. Uma das evidências que o modelo é bom é o fato das variáveis mais importantes no modelo serem condizentes com a análise exploratória realizada anteriormente. Afirmo que ele é suficientemente bom pois foram realizados testes com diversos outros modelos de Machine Learning e o XGBoost com os parâmetros escolhidos através de grid search teve a melhor performance. Além disso o XGBoost é muito utilizado na comunidade de Machine Learning e tem histórico excelente de resultados.
