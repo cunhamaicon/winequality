@@ -17,7 +17,7 @@ Nesse trabalho apresento um modelo de regressão utilizando XGBoost para determi
 2. winequality.ipynb - Arquivo principal onde são feitas todas as análises e gerado um modelo para prever a qualidade dos vinhos
 3. winequality.html - Réplica do arquivo  winequality.ipynb porém no formato html
 4. resultado.csv - Amostra de 20% da base com os dados originais e os dados previstos pelo modelo.
-5. modelo_teste.bin - Modelo salvo para utilização futura com separação de treinamento e teste
+5. modelo_teste.bin - Modelo utilizado para gerar os dados de teste em resultado.csv
 6. modelo.bin - Modelo final utilizando todos os dados
 7. apply_model.ipynb - Exemplo de aplicação do modelo em uma linha de forma manual
 8. arvore.png - imagem com a inicio da arvore obtida no modelo
