@@ -1,14 +1,15 @@
 # winequality
 
-Análise da qualidade dos vinhos
+Análise e criação de modelo para determinar a qualidade dos vinhos
+
+Autor: Maicon Henrique Cunha
+
+Linguagem: Python
 
 ## Introdução
 
 Nesse trabalho apresento um modelo de regressão utilizando XGBoost para determinar a qualidade dos vinhos baseado em suas  características. O modelo teve um erro quadrático médio de 0.58 e foi 32% melhor que o baseline. Para chegar nesse resultado foi feita uma preparação dos dados criteriosa eliminando incosnsistências e outliers, uma análise exploratória para descobrir variáveis importantes e testes com vários modelos e parâmetros. 
 
-Linguagem: Python
-
-Autor: Maicon Henrique Cunha
 
 ## Arquivos:
 
